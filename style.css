@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+h1 span {
+  text-decoration: line-through;
+}
+
+h1 img {
+  height: 32px;
+  width: auto;
+}
+
+body {
+  font-family: 'Gloria Hallelujah', serif;
+  color: rgb(51, 48, 48);
+  background-image: url(images/quokka.jpg);
+  background-size: 291px, 459px;
+  font-size: 24px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+.btn-red {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 8px 16px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fa-brands {
+  color: #E14D2A;
+  font-size: 40px;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-white {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0, 0.1);
+  width: 70%;
+  margin: 24px auto;
+  padding: 32px;
+  text-align: center;
+}
